@@ -78,21 +78,7 @@ body {
 }
 
 .dark .card {
-  background: linear-gradient(
-    to top,
-    #505285 0%,
-    #585e92 12%,
-    #65689f 25%,
-    #7474b0 37%,
-    #7e7ebb 50%,
-    #8389c7 62%,
-    #9795d4 75%,
-    #a2a1dc 87%,
-    #b5aee4 100%
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: #8983f3;
   border: 2px solid #a5f2e7;
   border-radius: 10px;
 }
@@ -145,8 +131,8 @@ body {
 }
 .btn-primary {
   background-color: #a5f2e7;
-  margin: auto 10px;
   border: 1px solid #61c0bf;
+  align-items: right;
 }
 
 .btn-info:hover {
@@ -156,7 +142,7 @@ body {
 }
 .search-icon {
   display: flex;
-  align-items: center;
+  align-items: right;
   color: #61c0bf;
 }
 .form-check-input {
